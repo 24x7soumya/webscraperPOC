@@ -1,0 +1,28 @@
+{
+  "name": "rjio",
+  "version": "1.0.0",
+  "description": "Web Scraping Assignment",
+  "main": "core/index.js",
+  "jest": {
+    "verbose": false
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "gainers": "npm start",
+    "losers": "npm start L",
+    "test": "jest",
+    "doc": "jsdoc -c config/jsdoc.conf.json"
+  },
+  "author": "Soumya Bhattacharjee",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^27.0.3",
+    "console-table-printer": "^2.10.0",
+    "jest": "^27.4.5",
+    "jsdoc": "^3.6.7",
+    "jsdom": "^19.0.0",
+    "node-localstorage": "^2.2.1",
+    "puppeteer": "^13.0.0",
+    "winston": "^3.3.3"
+  }
+}
