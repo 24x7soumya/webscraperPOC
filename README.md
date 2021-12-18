@@ -29,5 +29,5 @@ A basic POC for scraping web data.
 
 - Generate documentation
 ```
-npm run documentation
+npm run doc
 ```
